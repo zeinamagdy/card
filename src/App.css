@@ -2,42 +2,15 @@
   font-family: 'Outfit', sans-serif;
   background-color: #d5e1ef;
   display: flex;
+  flex-shrink: 2;
+  gap: 3em;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 95vh;
   margin: 0;
 }
-
-.card {
-  background-color: #fff;
-  border-radius: 2em;
-  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
-  width: 30em;
-  padding: 1.5em;
-  text-align: center;
-}
-
-.card-qr-code {
-  border-radius: 1em;
-  width: 85%;
-}
-
-
-.card-text {
-  padding: 1em 1em 2em 1em;
-}
-
-h1 {
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #1f3251;
-  margin: 1em 0;
-}
-
-p {
-  font-size: 1em;
-  font-weight: 400;
-  color: #7b879d;
-  line-height: 1.5;
-  margin: 0;
+@media (max-width: 800px) {
+  #root  {
+    flex-direction: column;
+  }
 }
