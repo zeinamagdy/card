@@ -2,9 +2,9 @@
     background-color: #fff;
     border-radius: 2em;
     box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
-    width: 30em;
+    width: 20em;
     margin: 3em;
-    padding: 1.5em;
+    padding-top: 1em;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
 
 
 .card-text {
-    padding: 1em 1em 2em 1em;
+    padding: .5em .5em 1em .5em;;
 }
 
 h1 {
