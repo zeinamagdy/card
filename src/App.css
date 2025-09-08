@@ -1,16 +1,8 @@
 #root {
   font-family: 'Outfit', sans-serif;
-  background-color: #d5e1ef;
   display: flex;
-  flex-shrink: 2;
-  gap: 3em;
   justify-content: center;
   align-items: center;
   min-height: 95vh;
   margin: 0;
-}
-@media (max-width: 800px) {
-  #root  {
-    flex-direction: column;
-  }
 }
